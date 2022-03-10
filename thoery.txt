@@ -163,7 +163,7 @@ props or state
 
 LifeCycle Methods 
 ------------------
--> static getDerivedStrateFromProps,
+-> static getDerivedStateFromProps,
 -> shouldComponentUpdate
 -> render,
 -> getSnapShotBeforeUpdate

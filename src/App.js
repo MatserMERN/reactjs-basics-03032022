@@ -7,6 +7,10 @@
 // import Hello from './2.jsx/Hello';
 // import Greeting from './3.props/Greeting';
 // import GreetingOne from './3.props/GreetingOne';
+import LifeCycleA from "./10.life-cycle/LifeCycleA";
+import StudentSQLAPI from "./11.ajax-calls/StudentSQLAPI";
+import Todo from "./11.ajax-calls/Todo";
+import User from "./11.ajax-calls/User";
 import Welcome from "./3.props/Welcome";
 import Counter from "./4.state/Counter";
 import CounterHook from "./4.state/CounterHook";
@@ -21,9 +25,15 @@ import UserGreetingOne from "./6.conditional-rendering/UserGreetingOne";
 import UserGreetingThree from "./6.conditional-rendering/UserGreetingThree";
 import UserGreetingTwo from "./6.conditional-rendering/UserGreetingTwo";
 import NameList from "./7.list-rendering/NameList";
+import NameListFour from "./7.list-rendering/NameListFour";
 import NameListOne from "./7.list-rendering/NameListOne";
 import NameListThree from "./7.list-rendering/NameListThree";
 import NameListTwo from "./7.list-rendering/NameListTwo";
+import Inline from "./8.styling/Inline";
+import Stylesheet from "./8.styling/Stylesheet";
+import StylesheetOne from "./8.styling/StylesheetOne";
+import Form from "./9.form-handling/Form";
+import FormOne from "./9.form-handling/FormOne";
 
 
 function App() {
@@ -34,7 +44,17 @@ function App() {
 
   return (
     <div className="App">
-      <NameListThree />
+      <StudentSQLAPI />
+      {/* <User /> */}
+      {/* <Todo /> */}
+      {/* <LifeCycleA /> */}
+      {/* <FormOne /> */}
+      {/* <Form /> */}
+      {/* <StylesheetOne /> */}
+      {/* <Inline /> */}
+      {/* <Stylesheet primary={false}/> */}
+      {/* <NameListFour /> */}
+      {/* <NameListThree /> */}
       {/* <NameListTwo /> */}
       {/* <NameListOne /> */}
       {/* <NameList /> */}
